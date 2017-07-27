@@ -102,7 +102,7 @@
       $("#apoio .slider").owlCarousel({
         navigation: true,
         pagination: false,
-        autoPlay: 5000, //Set AutoPlay to 3 seconds 
+        autoPlay: 2000, //Set AutoPlay to 3 seconds 
         items: 3,
         
       });
