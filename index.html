@@ -14,8 +14,7 @@
       <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
       <link href="css/style.css" rel="stylesheet">
       <link href="css/responsive.css" rel="stylesheet">
-      <!-- DEMO COLORS  -->
-      <link href="#" class="css-color" rel="stylesheet">
+      <link rel="stylesheet" href="css/animate.css">
       <!-- FAVICON  -->
       <link rel="icon" href="img/ico.png">
    </head>
@@ -82,7 +81,7 @@
       </header>
       <!-- END HEADER -->
       <!-- O EVENTO -->
-      <section id="the-event">
+      <section id="the-event" >
          <div class="container">
             <div class="row">
                <!-- O EVENTO HEADING -->
@@ -95,7 +94,7 @@
             </div>
 
             <div class="row">
-               <div class="infos-event">
+               <div class="infos-event  wow slideInRight">
                   <div class="event-november bg-item">
 
                     <div class="container-item">
@@ -144,8 +143,8 @@
                   </div>
                </div>
             </div>
-            <div class="row">
-               <div class="bg-pacotes">
+            <div class="row" >
+               <div class="bg-pacotes wow slideInLeft">
                   <div class="titulo-pacotes">
                      <div class="logo-pacotes"></div>
                      <h1>PACOTES <br></h1>
@@ -185,7 +184,7 @@
       </section>
       <!-- END O EVENTO -->
       <!-- CONTEUDO-->
-      <section id="conteudo">
+      <section id="conteudo" class="wow rollIn">
          <div class="container">
             <div class="row">
                <!-- O EVENTO HEADING -->
@@ -306,6 +305,12 @@
       <script src="js/jquery.js"></script>
       <script src="js/jquery.easing.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
+      <!--Wow plugin for animation worked-->
+      <script type="text/javascript" src="js/wow.min.js"></script>
+      <!--scroll animation-->
+      <script>
+          new WOW().init();
+      </script>
       <!-- smoothscroll  -->
       <script src="js/smoothscroll.js"></script>
       <!-- piechart  -->
