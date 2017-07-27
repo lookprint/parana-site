@@ -287,10 +287,10 @@ body.modal-open {
 /*3.2 LOGO*/
 
 .logo img {
-    height: 138px;
+  
     width: auto;
     position: absolute;
-    top: 30px;
+    top: 50px;
     margin-left: 20px;
     z-index: 999999;
 }
