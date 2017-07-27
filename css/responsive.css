@@ -166,7 +166,18 @@
         padding-right: 10px;
         justify-content: center;
     }
-    #the-event .infos-event div {
+    #the-event .infos-event .fourdays {
+      max-width: 263px;
+    }
+
+    #the-event .infos-event .parana {
+        max-width: 263px;
+    }
+    #apoio .content-realizacao .contato {
+        border-top: 3px solid #EF5A2B;
+        margin-top: 16px;
+    }
+    #the-event .infos-event .event-november {
         padding-right: 10px;
     }
     .bg-pacotes {} .titulo-pacotes span {

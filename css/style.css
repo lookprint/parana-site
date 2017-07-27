@@ -93,6 +93,11 @@ img::-moz-selection {
     font-weight: bold;
     src: url('../fonts/AILERON-BOLD.OTF');
 }
+@font-face {
+    font-family: 'Aileron-semibolditalic';
+    font-style: italic;
+    src: url('../fonts/AILERON-SEMIBOLDITALIC.OTF');
+}
 /* 2.2 HEADINGS */
 
 h1,
@@ -790,13 +795,11 @@ header .container {
     font-size: 40px
 }
 #the-event .infos-event {
-
-   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: -webkit-flex;     /* NEW - Chrome */
-    display:flex;   
-
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex;/* NEW - Chrome */
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 962px;
@@ -805,36 +808,92 @@ header .container {
     margin-right: auto;
     margin-top: -34px;
 }
-#the-event .infos-event .c900{
+#the-event .infos-event .bg-item {
+    width: 100%;
+    height: 173px;
+    background-color: #F7EBCC;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 30px;
+    /*margin-right: 30px;*/
+}
+
+#the-event .infos-event .event-november {
+    max-width: 263px;
+}
+#the-event .infos-event .event-november .container-item {
+    padding: 30px 30px 0px 25px;
+}
+
+#the-event .infos-event .container-item {
+    width: 100%;
+    height: 117px;
+    background-color: #282826;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+    position: relative;
+}
+#the-event .infos-event .bg-item span {
+    text-align: center;
+    display: block;
+    font-family: 'Aileron-semibolditalic';
+    font-size: 26px;
+}
+#the-event .infos-event .fourdays {
+    max-width: 154px;
+}
+#the-event .infos-event .fourdays .container-item {
+   /* padding: 15px 30px 0px 35px;*/
+   padding-top: 15px;
+}
+#the-event .infos-event .c900 {
+    max-width: 263px;
+    position: relative;
+    z-index: 223;
+    overflow: hidden;
+}
+#the-event .infos-event .c900 .container-item {
+}
+#the-event .infos-event .c900 .counter {
     position: relative;
     font-size: 90px;
     color: #EF5A2B;
     font-family: Catamaran;
     font-weight: 700;
-}
-#the-event .infos-event .c900 img{
-    position: relative;
-    z-index: 3;
-}
-#the-event .infos-event .c900 span {
-    position: absolute;
-    top: 0;
-    left: 65px;
-    z-index: 1;
+    display: inline;
+    margin-left: 26px;
     text-shadow: 2px 2px 0px #F7EBCC;
+    top: -7px;
+
 }
-#the-event .infos-event .c900 div {
+#the-event .infos-event .c900 .moresinal {
+    position: relative;
+    font-size: 90px;
+    color: #F7EBCC;
+    font-family: Catamaran;
+    font-weight: 700;
+    display: inline;
+    font-style: italic;
+    top: -7px;
+}
+#the-event .infos-event .c900 .container-item div{
     position: absolute;
-    top:22px;
+    top: 22px;
     left: 55px;
     background-image: url(../img/efeito.png);
-    width:203px;
+    width: 203px;
     height: 100px;
     z-index: 2;
 }
-#the-event .infos-event div {
-    float: left;
-    margin-bottom: 30px;
+
+#the-event .infos-event .parana {
+    max-width: 154px;
+}
+#the-event .infos-event .parana .container-item {
+   /* padding: 15px 30px 0px 35px;*/
+   padding-top: 22px;
 }
 #the-event .infos-event div img {
     background-size: cover;
